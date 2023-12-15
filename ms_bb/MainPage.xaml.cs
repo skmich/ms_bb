@@ -20,9 +20,9 @@ namespace ms_bb
             images = new List<Images>
             {
                 new Images { ImageSource = "forest.jpg", ImageName="forest"},
-                new Images { ImageSource = "las1.jpg", ImageName="forest"},
+                new Images { ImageSource = "las1.jpg", ImageName="las"},
                 new Images { ImageSource = "las3.jpg", ImageName="forest"},
-                new Images { ImageSource = "las3.jpg", ImageName="forest"},
+                new Images { ImageSource = "las3.jpg", ImageName="las syberyjski"},
             };
             imagesCarousel.ItemsSource = images;
 

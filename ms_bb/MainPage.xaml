@@ -8,8 +8,8 @@
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <Image Source="{Binding ImageSource}"/>
-                        <Label Text="{Binding ImageName}"/>
+                        <Image Source="{Binding ImageSource}" Aspect="AspectFit"/>
+                        <Label Text="{Binding ImageName}" VerticalTextAlignment="End" HorizontalTextAlignment="Center" FontSize="30" TextColor="Black"/>
                     </Grid>
                 </DataTemplate>
             </CarouselView.ItemTemplate>
