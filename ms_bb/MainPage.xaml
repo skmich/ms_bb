@@ -8,12 +8,14 @@
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <Image Source="{Binding}"/>
-                        <Label Text="{Binding}"/>
+                        <Image Source="{Binding ImageSource}"/>
+                        <Label Text="{Binding ImageName}"/>
                     </Grid>
                 </DataTemplate>
             </CarouselView.ItemTemplate>
         </CarouselView>
+
+        <Button x:Name="startStopButton" Text="Stop Auto"></Button>
     </StackLayout>
 
 </ContentPage>

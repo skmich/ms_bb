@@ -17,9 +17,9 @@ namespace ms_bb
 
             images = new List<Images>
             {
-                new Images { ImgageSource = "forest,jpg", ImageName="forest"},
-                new Images { ImgageSource = "forest,jpg", ImageName="forest"},
-                new Images { ImgageSource = "forest,jpg", ImageName="forest"},
+                new Images { ImageSource = "forest,jpg", ImageName="forest"},
+                new Images { ImageSource = "forest,jpg", ImageName="forest"},
+                new Images { ImageSource = "forest,jpg", ImageName="forest"},
             };
 
             
