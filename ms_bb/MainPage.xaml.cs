@@ -10,9 +10,19 @@ namespace ms_bb
 {
     public partial class MainPage : ContentPage
     {
+        private List<Images> images;
         public MainPage()
         {
             InitializeComponent();
+
+            images = new List<Images>
+            {
+                new Images { ImgageSource = "forest,jpg", ImageName="forest"},
+                new Images { ImgageSource = "forest,jpg", ImageName="forest"},
+                new Images { ImgageSource = "forest,jpg", ImageName="forest"},
+            };
+
+            
         }
     }
 }
