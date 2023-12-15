@@ -84,7 +84,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\las1.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ms_bb\ms_bb.csproj">
       <Project>{AE2D0160-0BE0-4C44-9B3D-9861ECC17D34}</Project>
