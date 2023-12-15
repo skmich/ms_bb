@@ -20,8 +20,9 @@ namespace ms_bb
             images = new List<Images>
             {
                 new Images { ImageSource = "forest.jpg", ImageName="forest"},
-                new Images { ImageSource = "forest.jpg", ImageName="forest"},
-                new Images { ImageSource = "forest.jpg", ImageName="forest"},
+                new Images { ImageSource = "las1.jpg", ImageName="forest"},
+                new Images { ImageSource = "las3.jpg", ImageName="forest"},
+                new Images { ImageSource = "las3.jpg", ImageName="forest"},
             };
             imagesCarousel.ItemsSource = images;
 
@@ -32,20 +33,20 @@ namespace ms_bb
                     SlideImages();
                 }
 
-
                 return true;
             });
+        }
 
+        void SlideImages()
+        {
+            actualPosition = (actualPosition + 1) % images.Count;
+            imagesCarousel.Position = actualPosition;
+        }
 
-            void SlideImages()
-            {
-                actualPosition = (actualPosition + 1) % images.Count;
-                imagesCarousel.Position = actualPosition;
-            }
-
-
-
-
+        private void AutoSlideManager(object sender, EventArgs e)
+        {
+            IsStarted = !IsStarted;
+            startStopButton.Text = IsStarted ? "Stop Auto Slide" : "Start Auto Slide";
         }
     }
 }

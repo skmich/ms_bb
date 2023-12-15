@@ -15,7 +15,7 @@
             </CarouselView.ItemTemplate>
         </CarouselView>
 
-        <Button x:Name="startStopButton" Text="Stop Auto"></Button>
+        <Button x:Name="startStopButton" Text="Stop Auto Slide" Clicked="AutoSlideManager"/>
     </StackLayout>
 
 </ContentPage>
